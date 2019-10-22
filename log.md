@@ -64,3 +64,10 @@ ython -m ipykernel install --user --name other-env --display-name "Python (other
 ### 7/26/2019
 ```sudo pfctl -f /etc/pf.conf```
 
+### 10/10/2019
+``` docker cp ./localdir container:/remotedir ```
+
+### 10/22/2019
+```Get-Process -Id (Get-NetTCPConnection -LocalPort 27017).OwningProcess```
+
+
